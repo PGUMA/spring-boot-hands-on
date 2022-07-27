@@ -7,7 +7,7 @@ import java.util.*
 import javax.servlet.http.HttpSession
 
 @RestController
-class HandsOnSessionController constructor(
+class HandsOnHttpSessionController constructor(
     @Autowired private val session: HttpSession
 ) {
 
